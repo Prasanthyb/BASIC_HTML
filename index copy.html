@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Welcome to my first website! Here, I share my journey of learning web development, along with tips, tricks, and resources."
+    />
+    <meta name="author" content="Prasanthy Bhaskaran" />
+    <title>My First HTML Website</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
+
+      html {
+       scroll-behavior: smooth;
+        font-family: "jost", sans-serif;
+        background-color: #efefef;
+      }
+
+      h1 {
+        font-weight: bold;
+        font-size: 2rem;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      li,
+      p,
+      label {
+        font-family: Urbanist;
+        letter-spacing: 0.06;
+        line-height: 1.6;
+        font-size: 1.4rem;
+      }
+
+      audio {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 25px;
+      }
+
+      progress {
+        height: 2rem;
+        width: 20rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HEADER Section  -->
+    <header>
+      <div class="logo">
+        <a href="#" target="_blank">
+          <img src="html-logo-100.png" alt="html logo" />
+        </a>
+      </div>
+      <nav>
+        <ul style="list-style: none; display: flex; gap: 10px">
+          <li><a href="#"> Home</a></li>
+          <li><a href="#"> About</a></li>
+          <li><a href="#"> Lessons</a></li>
+          <li><a href="#contact"> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--  main Hero section  -->
+    <main>
+      <div class="hero-content">
+          <h1>I am Prasanthy Bhaskaran</h1>
+          <p>
+              Welcome to my website! Here, I share my journey of learning web development, including tips and tricks, design principles, source code, and programming videos. 
+          </p>
+          <button>See My Work</button>
+          <a href="#" target="_blank">
+              <button type="button">Visit My YouTube Channel</button>
+          </a>
+      </div>
+      <!-- Hero section image -->
+      <div class="hero-image">
+          <figure>
+              <img
+                  src="HERO.webp"
+                  alt="Hero section image of html"
+                  width="500"
+                  height="auto"
+              />
+          </figure>
+      </div>
+  </main>
+  
+    <!-- about section  -->
+    <section class="about-section">
+      <h2>About Me 👋</h2>
+    <div class="about-content">
+        <p>It's great to meet you! I’m <strong><em>Prasanthy Bhaskaran</em></strong>.</p>
+        <p>
+            I am on a journey to learn coding, starting with HTML. My goal is to become proficient in web development, and I am excited to share my progress and experiences. I find joy in creating web pages and understanding how they work behind the scenes.
+        </p>
+        <p>
+            I have been using various online resources and tutorials to guide my learning process. These resources have been incredibly helpful in building my skills and knowledge in web development.
+        </p>
+        <p>
+            By following these tutorials, I am learning the skills needed for a web development job. I believe that continuous learning and practice are key to success in this field.
+        </p>
+         
+        <p><strong> My coding Knowledge</strong></p>
+        <div class="about-progress">
+          <label for="html">HTML CODE: </label>
+          <progress id="html" max="100" value="100">100% HTML</progress>
+        </div>
+
+        <div class="about-progress">
+          <label for="css">CSS CODE:</label>
+          <progress id="css" value="100" max="100">100% CSS</progress>
+        </div>
+
+        <div class="about-progress">
+          <label for="js">JavaScript CODE:</label>
+          <progress id="js" value="80" max="100">80% Javascript</progress>
+        </div>
+
+        <div class="about-progress">
+          <label for="mern">MERN CODE:</label>
+          <progress id="mern" value="60" max="100">60% MERN</progress>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning section -->
+<section class="learning-section">
+  <h2>What I'm Learning</h2>
+  <div class="learning-gallery" style="display: flex">
+    <figure>
+      <img
+        src="html.webp"
+        alt="HTML"
+        width="200"
+        height="125"
+      />
+      <figcaption>Learning HTML</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="CSS.webp"
+        alt="CSS"
+        width="200"
+        height="125"
+      />
+      <figcaption>Learning CSS</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="JS.webp"
+        alt="JavaScript"
+        width="200"
+        height="125"
+      />
+      <figcaption>Learning JavaScript</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="react.webp"
+        alt="React"
+        width="200"
+        height="125"
+      />
+      <figcaption>Learning React</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="nextjs.webp"
+        alt="Next.js"
+        width="200"
+        height="125"
+      />
+      <figcaption>Learning Next.js</figcaption>
+    </figure>
+  </div>
+</section>
+
+
+    <!-- our blog section  -->
+    <!-- My Learning Journey -->
+<section class="blog-section">
+  <h2>My Learning Journey in Web Development</h2>
+  <article>
+    <header>
+      <h3>Embarking on the Path to Web Development</h3>
+    </header>
+    <p>
+      As a beginner in web development, I am excited to share my learning journey and the various technologies I am exploring. The world of web development is vast, and there is always something new to learn.
+    </p>
+
+    <section>
+      <h3>Getting Started with HTML and CSS</h3>
+      <p>
+        My journey began with HTML and CSS, the fundamental building blocks of web development. Learning how to structure web pages and style them with CSS has been a rewarding experience. Creating visually appealing web pages has given me a solid foundation to build upon.
+      </p>
+    </section>
+
+    <section>
+      <h3>Diving into JavaScript</h3>
+      <p>
+        JavaScript has been the next step in my learning journey. Understanding how to add interactivity and dynamic features to web pages has been both challenging and exciting. JavaScript opens up a world of possibilities, allowing me to create more engaging and functional websites.
+      </p>
+    </section>
+
+    <section>
+      <h3>Exploring React</h3>
+      <p>
+        As I progress, I have started exploring React, a popular JavaScript library for building user interfaces. React's component-based architecture makes it easier to manage complex applications and develop reusable code. Learning React has expanded my ability to create more sophisticated and interactive web applications.
+      </p>
+    </section>
+
+    <section>
+      <h3>Delving into Next.js</h3>
+      <p>
+        Next.js, a powerful framework built on top of React, has been another exciting area of exploration. Next.js simplifies the development process by providing features like server-side rendering and static site generation. It helps improve the performance and SEO of web applications, making it an essential tool for modern web development.
+      </p>
+    </section>
+
+    <section>
+      <h3>Continuous Learning and Growth</h3>
+      <p>
+        Web development is an ever-evolving field, and I am committed to continuous learning and growth. I am exploring various online resources, tutorials, and courses to stay up-to-date with the latest trends and technologies. This journey has been incredibly fulfilling, and I look forward to expanding my skills further.
+      </p>
+    </section>
+
+    <p>
+      Thank you for joining me on my learning journey. I am excited to see where this path will lead and to share my progress along the way.
+    </p>
+  </article>
+</section>
+
+
+    <!-- podcast section  -->
+    <section class="podcast-section">
+      <p>
+        <em
+          >I have also added web development podcast on 
+          website click on play button to play</em
+        >
+      </p>
+      <audio controls muted>
+        <source src="./audio/audio_thapa.mp3" type="audio/mpeg" />
+        <source src="./audio/audio_thapa.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <!-- other article links sections  -->
+    <section class="blog-link-section">
+      <p>Hope you like my other blogs too.</p>
+      <ul>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+            target="_blank"
+            >Please subscribe to thapa technical youtube channel
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+            target="_blank"
+          >
+            Please share this video with your friends on all social networking
+            sites
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+            target="_blank"
+            >Source Code is Free, use it only required. Also, LIKE & COMMENT on
+            the video to.
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+            target="_blank"
+            >Your positivity is contagious, and your smile has the power to
+            brighten anyone's day. Keep being the amazing person you are!
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+            target="_blank"
+          >
+            Remember, every small step you take is a stride towards your dreams.
+            Keep going, because you're capable of achieving greatness!
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- contact us section  -->
+    <section id="contact">
+      <h2>Feel free to contact us</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.26131732789!2d73.91411937534653!3d18.56225398253939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c147b8b3a3bf%3A0x6f7fdcc8e4d6c77e!2sPhoenix%20Marketcity%20Pune!5e0!3m2!1sen!2sin!4v1693563525384!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style="border: 0"
+        title="my mall place"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <!-- form section  -->
+      <form>
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" />
+        </div>
+        <br />
+        <div>
+          <label for="email">Enter your email</label>
+          <input type="email" id="email" />
+        </div>
+        <br />
+        <div>
+          <label for="textarea">Message</label>
+          <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <input type="submit" value="submit" />
+      </form>
+    </section>
+
+    <!-- footer section  -->
+    <footer>
+      <p>
+        Copyright &copy;2023 All rights reserved | This template is made with ❤
+        by Thapa Technical
+      </p>
+    </footer>
+  </body>
+</html>
